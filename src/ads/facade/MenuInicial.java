@@ -9,6 +9,7 @@ public class MenuInicial {
 
     public void comecar() {
         Jogo jogo = new Jogo();
+        facade.configuracaoInicial();
         boolean y = true;
         while (y == true) {
             int x;
