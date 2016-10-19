@@ -15,7 +15,7 @@ public class Jogo {
             int x = entrada.nextInt();
             switch (x) {
                 case 1:
-                    pausar();
+                    opcoes();
                     break;
                 case 2:
                     i = false;
@@ -24,7 +24,7 @@ public class Jogo {
         }
     }
 
-    public void pausar() {
+    public void opcoes() {
         int x;
         boolean i = true;
         while (i == true) {
